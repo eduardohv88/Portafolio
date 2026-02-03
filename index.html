@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Mi primer portafolio">
+  <meta name="author" content="Jorge Eduardo Huamani Valladolid">
+  <title>Portafolio | Jorge Eduardo Huamani Valladolid</title>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <div class="page">
+    <header class="navbar">
+      <span class="navbar__animation"></span>
+      <nav class="navbar__container">
+
+        <!-- Logo -->
+        <a href="#home" class="navbar__logo">Jorge</a>
+
+
+        <!-- Boton hamburguesa-->
+        <button class="navbar__menu-toggle" id="mobile-menu" aria-label="Abrir menú" aria-expanded="false"
+          aria-controls="nav-list">
+          <span class="navbar__bar"></span>
+          <span class="navbar__bar"></span>
+          <span class="navbar__bar"></span>
+        </button>
+
+        <!-- Links de navegacion-->
+        <ul class="navbar__list" id="nav-list">
+          <li class="navbar__item"><a href="#home" class="navbar__link">INICIO</a></li>
+          <li class="navbar__item"><a href="#about" class="navbar__link">SOBRE MI</a></li>
+          <li class="navbar__item"><a href="#skills" class="navbar__link">HABILIDADES</a></li>
+          <li class="navbar__item"><a href="#proyects" class="navbar__link">PROYECTOS</a></li>
+          <li class="navbar__item"><a href="#experience" class="navbar__link">EXPERIENCIA</a></li>
+        </ul>
+
+      </nav>
+
+    </header>
+
+
+    <!--Seccion inicio banner-->
+    <section id="home" class="banner">
+
+      <div class="banner__container">
+        <div class="banner__icons">
+          <a href="https://www.linkedin.com/in/jorge-eduardo-3a5796192/" target="_blank" class="banner__icon">
+            <i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/eduardohv88" target="_blank" class="banner__icon">
+            <i class="fab fa-github fa-2x"></i></a>
+          <a href="mailto:jorge.huamaniv@pucp.edu.pe" target="_blank" class="banner__icon">
+            <i class="fas fa-envelope fa-2x"></i></a>
+        </div>
+        <div class="banner__texts">
+          <h4 class="banner__text-medium">Hola, yo soy</h4>
+          <h1 class="banner__text-large">Jorge Huamani</h1>
+          <h6 class="banner__text-small">Desarrollador Frontend</h6>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Sobre Mi -->
+    <section id="about" class="section">
+
+      <h3 class="section__title"> Sobre mí</h3>
+      <p class="section__description">Soy estudiante de <span class="section__highlight"> Ingeniería Informática </span>
+        con la totalidad de los cursos universitarios terminados. Mi enfoque principal es el <span
+          class="section__highlight"> desarrollo frontend
+        </span>, donde me especializo en crear interfaces modernas, responsivas y centradas en la experiencia del
+        usuario. Tengo experiencia técnica sólida en <span class="section__highlight"> Angular</span>, <span
+          class="section__highlight">React</span> y tecnologías web fundamentales (HTML, CSS, JavaScript).
+        <br> <br>
+        Me considero una persona con gran capacidad de aprendizaje y adaptación. Destaco por mis habilidades de
+        comunicación y mi actitud proactiva para aportar soluciones en equipos multidisciplinarios.
+      </p>
+    </section>
+
+    <!-- Sección experiencia -->
+    <section id="experience" class="section">
+      <h3 class="section__title "> Experiencia</h3>
+      <div class="forma-linea">
+
+        <div id="lista-experiencia"></div>
+
+      </div>
+    </section>
+    
+    <!-- Sección habilidades -->
+    <section id="skills" class="section">
+
+      <h3 class="section__title"> Habilidades</h3>
+
+      <div id="section-skills" class="section__skills">
+      </div>
+
+
+    </section>
+
+    <!-- Sección proyectos -->
+    <section id="proyects" class="section">
+      <h3 class="section__title "> Proyectos</h3>
+      <div id="section-proyects" class="section__proyects"></div>
+    </section>
+
+
+    <!-- Modal -->
+    <dialog id="modal" class="modal">
+
+      <header class="modal__header">
+        <button id="buttonClose" class="modal__button-close" aria-label="cerrar modal">✖</button>
+      </header>
+      <img id="imagenGrande" class="modal__main-picture">
+
+      <section class="carousel modal__carousel" aria-label="Galería de proyectos">
+        <button class="carousel__btn carousel__btn--prev" aria-label="Imagen anterior">‹</button>
+
+        <!-- Aquí JS inserta viewport + track -->
+
+        <button class="carousel__btn carousel__btn--next" aria-label="Imagen siguiente">›</button>
+      </section>
+    </dialog>
+
+
+
+    <footer class="footer">
+
+      <div class="footer__icons">
+        <a href="https://www.linkedin.com/in/jorge-eduardo-3a5796192/" target="_blank" class="footer__icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/eduardohv88" target="_blank" class="footer__icon">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:jorge.huamaniv@pucp.edu.pe" class="footer__icon">
+          <i class="fas fa-envelope"></i>
+        </a>
+
+      </div>
+      <div class="footer__information">
+        <p>Desarrollado con HTML, CSS y JavaScript</p>
+      </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+
+  </div>
+</body>
+
+</html>
