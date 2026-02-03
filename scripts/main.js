@@ -151,7 +151,7 @@ const proyectos = [
             {
                 nombre: "Flutterflow",
                 alt: "logo de flutterflow",
-                url: "images/tecnologias/flutterflow.svg"
+                url: "images/tecnologias/flutterFlow.svg"
             },
             {
                 nombre: "Flutter",
