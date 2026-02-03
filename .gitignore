@@ -1,0 +1,46 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Node.js (por si lo usas en el futuro)
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# Python (por si lo usas en el futuro)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Entorno local
+.env
+.env.local
+.env.*.local
+
+# Dependencias de compiladores/build
+dist/
+build/
+
+# Archivos temporales
+*.tmp
+*.bak
