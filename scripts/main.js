@@ -364,6 +364,7 @@ skills.forEach(skill => {
         img.classList.add("skill-card__logo");
         img.src = tecnologia.url;
         img.alt = tecnologia.alt;
+        img.loading = "lazy";
 
         const name = document.createElement("h6");
         name.classList.add("skill-card__text");
@@ -415,9 +416,11 @@ const fragmentExperience = document.createDocumentFragment(); //Objeto ligero de
 experience.forEach(experiencia => {
     const contenedorItem = document.createElement("div");
     contenedorItem.classList.add("linea-tiempo__item");
+    contenedorItem.setAttribute("role", "listitem");
 
     const itemCirculo = document.createElement("span");
     itemCirculo.classList.add("item__circulo");
+    itemCirculo.setAttribute("aria-hidden", "true");
 
     const itemContenido = document.createElement("div");
     itemContenido.classList.add("item__content");
@@ -425,7 +428,7 @@ experience.forEach(experiencia => {
     const aboutcompany = document.createElement("div");
     aboutcompany.classList.add("content__about-experience");
 
-    const role = document.createElement("h5");
+    const role = document.createElement("h3");
     role.textContent = experiencia.puesto;
     role.classList.add("about-experience__rol");
 
@@ -433,17 +436,19 @@ experience.forEach(experiencia => {
     nameCompany.textContent = experiencia.empresa;
     nameCompany.classList.add("about-experience__name-company");
 
-    const period = document.createElement("h6");
+    const period = document.createElement("h5");
     period.textContent = experiencia.periodo;
     period.classList.add("about-experience__period");
 
     const pictureCompany = document.createElement("img");
     pictureCompany.src = experiencia.imagen;
-    pictureCompany.alt = "logo de" + `${experiencia.empresa}`;
+    pictureCompany.alt = `Logo de ${experiencia.empresa}`;
     pictureCompany.classList.add("about-experience__picture-company");
+    pictureCompany.loading = "lazy";
 
     const ul = document.createElement("ul");
     ul.classList.add("content__list")
+    ul.setAttribute("aria-label", `Tareas en ${experiencia.empresa}`);
     experiencia.tareas.forEach(item => {
         li = document.createElement("li");
         li.classList.add("list__item");
@@ -476,7 +481,9 @@ proyectos.forEach((proyecto, index) => {
     const pictureProyect = document.createElement("img");
     pictureProyect.classList.add("proyects-card__picture");
     pictureProyect.src = proyecto.imagen;
+    pictureProyect.alt = `Captura de pantalla del proyecto: ${proyecto.titulo}`;
     pictureProyect.dataset.index = index;
+    pictureProyect.loading = "lazy";
     containerPicture.append(pictureProyect);
 
 
@@ -485,9 +492,9 @@ proyectos.forEach((proyecto, index) => {
     aboutProyect.classList.add("proyects-card__about-proyect");
 
     //Creamos el titulo para cada proyecto
-    const h6 = document.createElement("h6");
-    h6.classList.add("proyects-card__title");
-    h6.textContent = proyecto.titulo;
+    const h3 = document.createElement("h3");
+    h3.classList.add("proyects-card__title");
+    h3.textContent = proyecto.titulo;
 
     //Creamos la descripción para cada proyecto
     const p = document.createElement("p");
@@ -497,6 +504,7 @@ proyectos.forEach((proyecto, index) => {
     //Creamos contenenedor de tecnologias usadas en el proyecto
     const divTech = document.createElement("div");
     divTech.classList.add("proyects-card__technologies");
+    divTech.setAttribute("aria-label", "Tecnologías utilizadas");
 
     //Botón de github
 
@@ -507,6 +515,7 @@ proyectos.forEach((proyecto, index) => {
     link.href = proyecto.link;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
+    link.setAttribute("aria-label", `Ver código de ${proyecto.titulo} en GitHub`);
     
     const svg = document.createElementNS(SVG_NS, "svg");
     svg.classList.add("proyects-card__icon");
@@ -535,12 +544,15 @@ proyectos.forEach((proyecto, index) => {
 
         const chip = document.createElement("div");
         chip.classList.add("proyects-card__chip");
+        chip.setAttribute("role", "img");
+        chip.setAttribute("aria-label", tecnologia.nombre);
 
 
         const img = document.createElement("img");
         img.src = tecnologia.url;
         img.alt = tecnologia.alt;
         img.classList.add("proyects-card__chip-picture");
+        img.loading = "lazy";
 
         const nameTechnology = document.createElement("h6");
         nameTechnology.textContent = tecnologia.nombre;
@@ -553,9 +565,9 @@ proyectos.forEach((proyecto, index) => {
     link.append(svg, text);
     svg.appendChild(path);
     if(proyecto.link.length > 0){
-        aboutProyect.append(h6, divTech, p, link);
+        aboutProyect.append(h3, divTech, p, link);
     }else{
-        aboutProyect.append(h6, divTech, p);
+        aboutProyect.append(h3, divTech, p);
     }
     
     card.append(containerPicture, aboutProyect);
@@ -603,12 +615,14 @@ function abrirModalProyecto(index) {
 
         const img = document.createElement("img");
         img.src = src;
-        img.alt = `Captura ${i + 1}`;
+        img.alt = `Captura de pantalla ${i + 1} de ${proyecto.titulo}`;
         img.classList.add("carousel__picture");
+        img.loading = "lazy";
         if (i === 0) img.classList.add("carousel__picture--active");
 
         img.addEventListener("click", () => {
             imagenGrande.src = src;
+            imagenGrande.alt = `Captura de pantalla ${i + 1} de ${proyecto.titulo}`;
             marcarActiva(i);
             miniaturas.centerTo(i); // Centra la miniatura al hacer click
         });

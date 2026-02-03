@@ -1,0 +1,10 @@
+# Robots.txt para Jorge Huamani Portafolio
+User-agent: *
+Allow: /
+Disallow: /images/
+
+# Sitemaps
+Sitemap: https://tudominio.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
