@@ -14,7 +14,7 @@ const proyectos = [
             {
                 nombre: "Bootstrap",
                 alt: "logo de Bootstrap",
-                url: "images/tecnologias/Bootstrap.svg"
+                url: "images/tecnologias/bootstrap.svg"
             },
             {
                 nombre: "C#",
@@ -29,7 +29,7 @@ const proyectos = [
             {
                 nombre: "MySQL",
                 alt: "logo de MySQL",
-                url: "images/tecnologias/MySQL.svg"
+                url: "images/tecnologias/mysql.svg"
             },
         ],
         capturas: [
