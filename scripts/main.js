@@ -2,141 +2,141 @@ const proyectos = [
     {
         titulo: "Software para automatizar el proceso de desembolso de préstamos comerciales y financiamientos COMEX",
         descripcion: "Proyecto desarrollado en colaboración con un equipo para el diseño e implemntación de un sistema que permite gestionar de forma integral la creación de expedientes, validación de documentación, registro y aprobación de desembolsos, confirmación de garantías y control documentario. <br> Mi aporte se centró en la creación de interfaces web en ASP.NET Web Forms, implementando formularios con validaciones en tiempo real, consumo de Web Services SOAP, manejo de estado de la aplicación y vinculación dinámica de datos para una experiencia de usuario fluida y eficiente.",
-        imagen: "../images/proyectos/proyecto-1/galeria-0.webp",
+        imagen: "images/proyectos/proyecto-1/galeria-0.webp",
         tieneLink: false,
         link: "",
         tecnologias: [
             {
                 nombre: "HTML",
                 alt: "logo de html",
-                url: "../images/tecnologias/html.svg"
+                url: "images/tecnologias/html.svg"
             },
             {
                 nombre: "Bootstrap",
                 alt: "logo de Bootstrap",
-                url: "../images/tecnologias/Bootstrap.svg"
+                url: "images/tecnologias/Bootstrap.svg"
             },
             {
                 nombre: "C#",
                 alt: "logo de C#",
-                url: "../images/tecnologias/c-sharp.svg"
+                url: "images/tecnologias/c-sharp.svg"
             },
             {
                 nombre: "Java",
                 alt: "logo de java",
-                url: "../images/tecnologias/java.svg"
+                url: "images/tecnologias/java.svg"
             },
             {
                 nombre: "MySQL",
                 alt: "logo de MySQL",
-                url: "../images/tecnologias/MySQL.svg"
+                url: "images/tecnologias/MySQL.svg"
             },
         ],
         capturas: [
-            "../images/proyectos/proyecto-1/galeria-1.webp",
-            "../images/proyectos/proyecto-1/galeria-2.webp",
-            "../images/proyectos/proyecto-1/galeria-3.webp",
-            "../images/proyectos/proyecto-1/galeria-4.webp",
-            "../images/proyectos/proyecto-1/galeria-5.webp",
-            "../images/proyectos/proyecto-1/galeria-6.webp",
+            "images/proyectos/proyecto-1/galeria-1.webp",
+            "images/proyectos/proyecto-1/galeria-2.webp",
+            "images/proyectos/proyecto-1/galeria-3.webp",
+            "images/proyectos/proyecto-1/galeria-4.webp",
+            "images/proyectos/proyecto-1/galeria-5.webp",
+            "images/proyectos/proyecto-1/galeria-6.webp",
         ]
 
     },
     {
         titulo: "Sistema de apoyo a los procesos administrativos de especialidades",
         descripcion: "Proyecto desarrollado en colaboración con un equipo para el diseño e implementación de un sistema que automatiza y gestiona los procesos administrativos de las especialidades universitarias, reemplazando flujos de trabajo tradicionales basados en correo electrónico. <br> El proyecto se desarrolló bajo la metodología Scrum, trabajando con historias de usuario, donde cada integrante fue responsable del desarrollo frontend y backend de sus funcionalidades, logrando una mejora significativa en la eficiencia operativa y la experiencia del usuario.",
-        imagen: "../images/proyectos/proyecto-2/galeria-0.webp",
+        imagen: "images/proyectos/proyecto-2/galeria-0.webp",
         tieneLink: false,
         link: "",
         tecnologias: [
             {
                 nombre: "React",
                 alt: "logo de React",
-                url: "../images/tecnologias/react.svg"
+                url: "images/tecnologias/react.svg"
             },
             {
                 nombre: "Spring Boot",
                 alt: "logo de Spring Boot",
-                url: "../images/tecnologias/spring-boot.svg"
+                url: "images/tecnologias/spring-boot.svg"
             },
             {
                 nombre: "MySQL",
                 alt: "logo de MySQL",
-                url: "../images/tecnologias/mysql.svg"
+                url: "images/tecnologias/mysql.svg"
             }
         ],
         capturas: [
-            "../images/proyectos/proyecto-2/galeria-1.webp",
-            "../images/proyectos/proyecto-2/galeria-2.webp",
-            "../images/proyectos/proyecto-2/galeria-3.webp",
-            "../images/proyectos/proyecto-2/galeria-4.webp",
-            "../images/proyectos/proyecto-2/galeria-5.webp",
-            "../images/proyectos/proyecto-2/galeria-6.webp",
-            "../images/proyectos/proyecto-2/galeria-7.webp",
-            "../images/proyectos/proyecto-2/galeria-8.webp",
-            "../images/proyectos/proyecto-2/galeria-9.webp"
+            "images/proyectos/proyecto-2/galeria-1.webp",
+            "images/proyectos/proyecto-2/galeria-2.webp",
+            "images/proyectos/proyecto-2/galeria-3.webp",
+            "images/proyectos/proyecto-2/galeria-4.webp",
+            "images/proyectos/proyecto-2/galeria-5.webp",
+            "images/proyectos/proyecto-2/galeria-6.webp",
+            "images/proyectos/proyecto-2/galeria-7.webp",
+            "images/proyectos/proyecto-2/galeria-8.webp",
+            "images/proyectos/proyecto-2/galeria-9.webp"
         ]
 
     },
     {
         titulo: "Sistema para gestión de pedidos de restaurante",
         descripcion: "Proyecto desarrollado en colaboración con un equipo para el diseño e implementación de un sistema de gestión para un restaurante, enfocado en la digitalización de la atención y la mejora de la experiencia del cliente. El sistema permite la visualización de una carta digital interactiva, la personalización de pedidos y el cálculo automático del monto, optimizando los procesos operativos. <br> Mi participación se centró en el diseño e implementación del frontend de la carta digital, habilitando la visualización de menús, la personalización de productos con especificaciones y adicionales, y el cálculo dinámico del monto total. Además, optimicé la carga de imágenes para mejorar el rendimiento y la experiencia de usuario.",
-        imagen: "../images/proyectos/proyecto-3/galeria-0.webp",
+        imagen: "images/proyectos/proyecto-3/galeria-0.webp",
         tieneLink: false,
         link: "",
         tecnologias: [
             {
                 nombre: "Next.js",
                 alt: "logo de next.js",
-                url: "../images/tecnologias/next-js.svg"
+                url: "images/tecnologias/next-js.svg"
             },
             {
                 nombre: "Python",
                 alt: "logo de python",
-                url: "../images/tecnologias/python.svg"
+                url: "images/tecnologias/python.svg"
             },
             {
                 nombre: "MySQL",
                 alt: "logo de MySQL",
-                url: "../images/tecnologias/mysql.svg"
+                url: "images/tecnologias/mysql.svg"
             }
         ],
         capturas: [
-            "../images/proyectos/proyecto-3/galeria-1.webp",
-            "../images/proyectos/proyecto-3/galeria-2.webp",
-            "../images/proyectos/proyecto-3/galeria-3.webp",
-            "../images/proyectos/proyecto-3/galeria-4.webp",
+            "images/proyectos/proyecto-3/galeria-1.webp",
+            "images/proyectos/proyecto-3/galeria-2.webp",
+            "images/proyectos/proyecto-3/galeria-3.webp",
+            "images/proyectos/proyecto-3/galeria-4.webp",
         ]
 
     },
     {
         titulo: "Sistema de optimización logística de GLP",
         descripcion: "Proyecto desarrollado en colaboración con un equipo para el diseño e implementación de un sistema de optimización de rutas de distribución mediante algoritmos metaheurísticos, reduciendo costos operativos y asegurando entregas en menos de 4 horas. <br> Se implementó un panel de monitoreo en tiempo real para la gestión de incidentes, bloqueos viales y la simulación de escenarios críticos.",
-        imagen: "../images/proyectos/proyecto-4/galeria-0.webp",
+        imagen: "images/proyectos/proyecto-4/galeria-0.webp",
         tieneLink: false,
         link: "",
         tecnologias: [
             {
                 nombre: "Next.js",
                 alt: "logo de Next.js",
-                url: "../images/tecnologias/next-js.svg"
+                url: "images/tecnologias/next-js.svg"
             },
             {
                 nombre: "Spring Boot",
                 alt: "logo de Spring Boot",
-                url: "../images/tecnologias/spring-boot.svg"
+                url: "images/tecnologias/spring-boot.svg"
             },
             {
                 nombre: "MySQL",
                 alt: "logo de MySQL",
-                url: "../images/tecnologias/mysql.svg"
+                url: "images/tecnologias/mysql.svg"
             },
         ],
         capturas: [
-            "../images/proyectos/proyecto-4/galeria-1.webp",
-            "../images/proyectos/proyecto-4/galeria-2.webp",
-            "../images/proyectos/proyecto-4/galeria-3.webp",
-            "../images/proyectos/proyecto-4/galeria-4.webp",
+            "images/proyectos/proyecto-4/galeria-1.webp",
+            "images/proyectos/proyecto-4/galeria-2.webp",
+            "images/proyectos/proyecto-4/galeria-3.webp",
+            "images/proyectos/proyecto-4/galeria-4.webp",
 
 
         ]
@@ -144,41 +144,41 @@ const proyectos = [
     {
         titulo: "Aplicación móvil gamificada para el fomento de la actividad física entre universitarios peruanos",
         descripcion: "Proyecto individual desarrollado como tesis para el diseño e implementación de una aplicación móvil Android dirigida a estudiantes universitarios peruanos con altos niveles de sedentarismo. La aplicación utiliza elementos de gamificación como puntos, insignias, rankings y desafíos personalizados para motivar la actividad física y promover hábitos saludables sostenibles. El proyecto aborda una problemática real del contexto peruano mediante una solución tecnológica culturalmente relevante, basada en teorías motivacionales.",
-        imagen: "../images/proyectos/proyecto-5/galeria-0.webp",
+        imagen: "images/proyectos/proyecto-5/galeria-0.webp",
         tieneLink: false,
         link: "https://github.com/eduardohv88/appGamificada.git",
         tecnologias: [
             {
                 nombre: "Flutterflow",
                 alt: "logo de flutterflow",
-                url: "../images/tecnologias/flutterflow.svg"
+                url: "images/tecnologias/flutterflow.svg"
             },
             {
                 nombre: "Flutter",
                 alt: "logo de flutter",
-                url: "../images/tecnologias/flutter.svg"
+                url: "images/tecnologias/flutter.svg"
             },
             {
                 nombre: "Firebase",
                 alt: "logo de firebase",
-                url: "../images/tecnologias/firebase.svg"
+                url: "images/tecnologias/firebase.svg"
             },
         ],
         capturas: [
-            "../images/proyectos/proyecto-5/galeria-1.webp",
-            "../images/proyectos/proyecto-5/galeria-2.webp",
-            "../images/proyectos/proyecto-5/galeria-3.webp",
-            "../images/proyectos/proyecto-5/galeria-4.webp",
-            "../images/proyectos/proyecto-5/galeria-5.webp",
-            "../images/proyectos/proyecto-5/galeria-6.webp",
-            "../images/proyectos/proyecto-5/galeria-7.webp",
-            "../images/proyectos/proyecto-5/galeria-8.webp",
-            "../images/proyectos/proyecto-5/galeria-9.webp",
-            "../images/proyectos/proyecto-5/galeria-10.webp",
-            "../images/proyectos/proyecto-5/galeria-11.webp",
-            "../images/proyectos/proyecto-5/galeria-12.webp",
-            "../images/proyectos/proyecto-5/galeria-13.webp",
-            "../images/proyectos/proyecto-5/galeria-14.webp",
+            "images/proyectos/proyecto-5/galeria-1.webp",
+            "images/proyectos/proyecto-5/galeria-2.webp",
+            "images/proyectos/proyecto-5/galeria-3.webp",
+            "images/proyectos/proyecto-5/galeria-4.webp",
+            "images/proyectos/proyecto-5/galeria-5.webp",
+            "images/proyectos/proyecto-5/galeria-6.webp",
+            "images/proyectos/proyecto-5/galeria-7.webp",
+            "images/proyectos/proyecto-5/galeria-8.webp",
+            "images/proyectos/proyecto-5/galeria-9.webp",
+            "images/proyectos/proyecto-5/galeria-10.webp",
+            "images/proyectos/proyecto-5/galeria-11.webp",
+            "images/proyectos/proyecto-5/galeria-12.webp",
+            "images/proyectos/proyecto-5/galeria-13.webp",
+            "images/proyectos/proyecto-5/galeria-14.webp",
         ]
     }
 ]
@@ -210,32 +210,32 @@ const skills = [
             {
                 nombre: "React",
                 alt: "logo de React",
-                url: "../images/tecnologias/react.svg"
+                url: "images/tecnologias/react.svg"
             },
             {
                 nombre: "Angular",
                 alt: "logo de Angular",
-                url: "../images/tecnologias/angular.svg"
+                url: "images/tecnologias/angular.svg"
             },
             {
                 nombre: "HTML",
                 alt: "logo de HTML",
-                url: "../images/tecnologias/html.svg"
+                url: "images/tecnologias/html.svg"
             },
             {
                 nombre: "CSS",
                 alt: "logo de CSS",
-                url: "../images/tecnologias/css.svg"
+                url: "images/tecnologias/css.svg"
             },
             {
                 nombre: "JavaScript",
                 alt: "logo de JavaScript",
-                url: "../images/tecnologias/javaScript.svg"
+                url: "images/tecnologias/javaScript.svg"
             },
             {
                 nombre: "Bootstrap",
                 alt: "logo de Bootstrap",
-                url: "../images/tecnologias/Bootstrap.svg"
+                url: "images/tecnologias/Bootstrap.svg"
             },
         ]
     },
@@ -245,17 +245,17 @@ const skills = [
             {
                 nombre: "Java",
                 alt: "logo de java",
-                url: "../images/tecnologias/java.svg"
+                url: "images/tecnologias/java.svg"
             },
             {
                 nombre: "C#",
                 alt: "logo de C#",
-                url: "../images/tecnologias/c-sharp.svg"
+                url: "images/tecnologias/c-sharp.svg"
             },
             {
                 nombre: "Spring Boot",
                 alt: "logo de Spring Boot",
-                url: "../images/tecnologias/spring-boot.svg"
+                url: "images/tecnologias/spring-boot.svg"
             },
         ]
     },
@@ -265,12 +265,12 @@ const skills = [
             {
                 nombre: "MySQL",
                 alt: "logo de MySQL",
-                url: "../images/tecnologias/mysql.svg"
+                url: "images/tecnologias/mysql.svg"
             },
             {
                 nombre: "Cloud Firestore",
                 alt: "logo de firestore",
-                url: "../images/tecnologias/firestore.svg"
+                url: "images/tecnologias/firestore.svg"
             }
         ]
     },
@@ -280,27 +280,27 @@ const skills = [
             {
                 nombre: "Git",
                 alt: "logo de Git",
-                url: "../images/tecnologias/git.svg"
+                url: "images/tecnologias/git.svg"
             },
             {
                 nombre: "GitHub",
                 alt: "logo de GitHub",
-                url: "../images/tecnologias/gitHub.svg"
+                url: "images/tecnologias/gitHub.svg"
             },
             {
                 nombre: "GitLab",
                 alt: "logo de GitLab",
-                url: "../images/tecnologias/gitLab.svg"
+                url: "images/tecnologias/gitLab.svg"
             },
             {
                 nombre: "Postman",
                 alt: "logo de Postman",
-                url: "../images/tecnologias/postman.svg"
+                url: "images/tecnologias/postman.svg"
             },
             {
                 nombre: "Figma",
                 alt: "logo de Figma",
-                url: "../images/tecnologias/figma.svg"
+                url: "images/tecnologias/figma.svg"
             }
         ]
     },
@@ -310,12 +310,12 @@ const skills = [
             {
                 nombre: "Flutter",
                 alt: "logo de Flutetr",
-                url: "../images/tecnologias/flutter.svg"
+                url: "images/tecnologias/flutter.svg"
             },
             {
                 nombre: "Flutterflow",
                 alt: "logo de Flutterflow",
-                url: "../images/tecnologias/flutterFlow.svg"
+                url: "images/tecnologias/flutterFlow.svg"
             },
         ]
     },
@@ -326,7 +326,7 @@ const experience = [
     {
         empresa: "Data Science Research Perú",
         puesto: "Desarrollador Frontend",
-        imagen: "../images/experiencia/dataScience.webp",
+        imagen: "images/experiencia/dataScience.webp",
         periodo: "enero 2025 - marzo 2025; julio 2025 - septiembre 2025",
         tareas: [
             "Desarrollé interfaces web para una plataforma educativa EdTech utilizando Angular 10, HTML5, SCSS y Bootstrap, a partir de prototipos en Figma.",
