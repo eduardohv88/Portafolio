@@ -4,7 +4,7 @@ Allow: /
 Disallow: /images/
 
 # Sitemaps
-Sitemap: https://tudominio.com/sitemap.xml
+Sitemap: https://eduardohv88.github.io/Portafolio/sitemap.xml
 
 # Crawl delay
 Crawl-delay: 1
