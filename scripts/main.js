@@ -235,7 +235,7 @@ const skills = [
             {
                 nombre: "Bootstrap",
                 alt: "logo de Bootstrap",
-                url: "images/tecnologias/Bootstrap.svg"
+                url: "images/tecnologias/bootstrap.svg"
             },
         ]
     },
